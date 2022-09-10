@@ -1,0 +1,90 @@
+/*browser padding alignment*/
+*{
+    padding: 0;
+    margin: 0;
+    /* outline: 1px solid white;*/
+}
+
+body{
+    background-color: #1a1a1a;
+    font-family: 'Lobster', cursive;
+}
+
+.navigation{
+    height:100px;
+    width: calc(100% - 500px);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.links{
+    }
+
+.link{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: x-large;
+    padding: 0 15px;
+
+}
+.contact-us{
+    border: none;
+    font-size: large;
+    background-color: #9cfceb;
+    padding: 10px;
+    border-radius: 2px;
+    box-shadow: 0 0 15px black;
+    font-family: 'Pacifico', cursive;
+}
+.body{
+    height: calc(100vh - 100px);
+    width: calc(100% - 500px);
+    margin: 0 auto;
+    display:flex;
+}
+.image,.about_text{
+    height:100%;
+    width:100%;
+}
+.image{
+    height: 100%;
+    width: 50%;
+}
+.about_text{
+    font-size: x-large;
+    color: cadetblue;
+    padding: 0 70px;
+}
+.DownloadCV{
+    border:solid;
+    border-color: #9cfceb;
+    font-size: large;
+    background-color: black;
+    color: #9cfceb;
+    padding: 10px;
+    border-radius: 2px;
+    box-shadow: 0 0 15px black;
+    font-family: 'Pacifico', cursive;
+
+}
+.name{
+    color: cadetblue;
+    font-size: 50px;
+}
+.txt1{
+    color: white;
+    font-size: 70px;
+}
+.txt2{
+    color: cadetblue;
+    font-size: 70px;
+}
+.txt3{
+    color: white;
+    font-size: 15px;
+    font-family: 'Combo', cursive;
+}
+    
+    
